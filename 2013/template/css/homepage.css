@@ -1,0 +1,246 @@
+﻿@charset "utf-8";
+/* CSS Document for Coram Web Solutions version 1.3 */
+
+#solutions
+{
+	padding					: 0px;
+	margin					: 0px;
+}	
+
+#solutions td
+{
+	vertical-align			: top;
+	width					: 240px;
+}
+
+.solution
+{
+	width					: 160px;
+	#width					: 0;
+}
+
+.solution img
+{
+	padding-top				: 0px;
+	#padding-top			: 0px;
+    padding-right			: 10px; 
+	float					: left;
+	border-style			: none;
+	#border-style			: none;
+}
+
+.solution div
+{
+	font-size				: 14px;
+	font-weight				: bold;
+	margin-top				: 10px;
+}
+
+.p_solution
+{
+	font-size				: 12px;
+	width					: 190px;
+}
+
+#innovation_panel
+{
+	padding					: 0px;
+	margin					: 0px;
+}
+
+#innovation_panel #message 
+{
+	background				: url('../images/img_feature_area.png') no-repeat;
+	width					: 959px;
+	height					: 201px;
+	padding-top				: 0px;
+}
+
+#innovation_panel #message p
+{
+	padding-left			: 194px;	
+	font-size				: 16px;
+}
+
+.inno_button
+{
+	padding-left			: 381px;
+	border					: 0;
+	#border					: none;
+	#border-style			: none;
+	border-style			: none;	
+}
+
+#our_work
+{
+	padding-top				: 0px;
+}
+
+.pic_work
+{
+	border					: 10px solid #e9e9e9;
+}
+
+.work_heading
+{
+	color					: #37b0e9;
+}
+
+#info_panel
+{
+	position				: relative;
+	background				: #ffffff;
+}
+
+#testimonial_section
+{
+	padding					: 0px;
+	font-family				: Verdana, Geneva, sans-serif;
+	color					: #404040;
+}
+
+#testimonial_section .testimonial
+{
+	background				: url(../images/img_testimonial_bg.png);
+	width					: 462px;
+	height					: 147px;
+	text-align				: center;
+}
+
+#testimonial_section .testimonial .text
+{
+	padding					: 20px;
+	font-size				: 11px;
+	font-style				: italic;
+}
+
+#testimonial_section .testimonial_author
+{
+	margin-left				: 44px;
+	margin-top				: -10px;
+	font-size				: 10px;
+}
+
+#testimonial_section .testimonial_author .author
+{
+	color					: #37b0e9;
+	font-weight				: bold;
+}
+
+#testimonial_section .testimonial_author a
+{
+	color					: #404040;
+	font-weight				: bold;
+}
+
+.tips
+{
+	width					: 479px;
+	padding-left			: 30px;
+	padding-top				: 0px;
+}
+
+.inno_tip
+{
+	line-height				: 1.5;
+	#line-height			: 2.9;
+	font-size				: 11px;
+	#font-size				: 11px;
+	padding					: 0px;
+	margin-left				: 24px;
+	margin-top				: -12px;
+}
+	
+.img_tip
+{
+	list-style-image		: url('../images/img_tips.png') ;
+	#padding-left			: 10px;
+}
+
+.portals
+{
+	display					: table;
+	margin					: 0 auto;
+	padding-top				: 40px;
+	padding-bottom			: 40px;
+	color					: #fff;
+	font-size				: 11px;
+}
+
+.portal_table td, .portal_table td table
+{
+	width					: 235px;
+}
+
+.portal_table td.text_h
+{
+	font-size				: 14px;
+	font-weight				: bold;
+	width					: 145px;
+}
+
+.portal_table td.text_topic
+{
+	padding-top				: 26px;
+	width					: 235px;
+}
+
+.portal_table td.text_topic.iframe
+{
+	padding					: 15px;
+}
+
+.portal_table img
+{
+	border					: 3px solid #c2c2c2;
+}
+
+#insights
+{
+	background				: #333333;
+	margin					: 0 auto;
+}
+
+#makeMeScrollable
+{
+	width					:960px;
+	height					: 365px;
+	position				: relative;
+
+}
+
+/* Replace the last selector for the type of element you have in
+   your scroller. If you have div's use #makeMeScrollable div.scrollableArea div,
+   if you have links use #makeMeScrollable div.scrollableArea a and so on. */
+#makeMeScrollable div.scrollableArea img
+{
+	position				: relative;
+	float					: left;
+	margin					: 0;
+	padding					: 0;
+	/* If you don't want the images in the scroller to be selectable, try the following
+	   block of code. It's just a nice feature that prevent the images from
+	   accidentally becoming selected/inverted when the user interacts with the scroller. */
+	-webkit-user-select		: none;
+	-khtml-user-select		: none;
+	-moz-user-select		: none;
+	-o-user-select			: none;
+	user-select				: none;
+}
+
+#tweets ul
+{ 
+   	margin					: 0; 
+    padding					: 0;
+}
+
+#tweets li 
+{
+	list-style				: url(../images/twitter.png);
+    padding-bottom			: 24px;
+}
+
+#tweets li a
+{
+	color					: #098bf7;
+}

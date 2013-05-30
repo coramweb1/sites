@@ -1,0 +1,46 @@
+div#gallery{
+	margin: 0 auto;
+	width: 960px;
+}
+
+div#gallery img{
+	height: 150px;
+	width: 150px;
+	border: 8px solid #FFF;
+	margin-left: 10px;
+	margin-right: 10px;
+	box-shadow: 0 0 8px silver;
+	border-radius: 3px;
+}
+
+div#gallery img:hover
+{
+	border: 8px solid #37b0e9;
+}
+
+span.p-caption{
+	background-color: silver;
+	opacity: 0.5;
+	position: relative;
+	color: #FFF;
+	left: -180px;	
+}
+
+div#gallery img.first{
+	margin-left: 0px;
+}
+
+a{
+	border: none;
+	text-decoration: none;
+	text-transform: none;
+}
+
+
+div#gallery ul{
+	list-style-type: none;
+}
+
+div#gallery ul li{
+	display: inline;
+}
